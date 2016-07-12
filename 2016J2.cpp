@@ -5,7 +5,7 @@ int main(){
     for(int i=1; i<=4; i++){
         tmp = 0;
         for(int j=1; j<=4; j++){
-            cin >> a[i][j];
+            scanf("%d", &a[i][j]);
             if(i==1) sum += a[i][j];
             tmp += a[i][j];
         }
@@ -17,6 +17,9 @@ int main(){
             tmp += a[i][j];
         if(tmp!=sum) flag=0;
     }
-    if(flag) cout << "magic" << endl;
-    else cout << "not magic" << endl;
+    if(flag){
+		printf("magic\n");
+    }else{
+		printf("not magic\n");
+	}
 }
