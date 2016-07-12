@@ -18,8 +18,8 @@ int main(){
         if(tmp!=sum) flag=0;
     }
     if(flag){
-		printf("magic\n");
+		cout << "magic" << endl;
     }else{
-		printf("not magic\n");
+		cout << "not magic" << endl;
 	}
 }
