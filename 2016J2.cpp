@@ -17,9 +17,5 @@ int main(){
             tmp += a[i][j];
         if(tmp!=sum) flag=0;
     }
-    if(flag){
-		printf("magic\n");
-    }else{
-		printf("not magic\n");
-	}
+	printf("%s\n", flag? "magic":"not magic");
 }
