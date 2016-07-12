@@ -6,8 +6,8 @@ int main(){
         scanf(" %c", ch);
         if(ch=='W') cnt++;
     }
-    if(cnt >= 5) cout << 1 << endl;
-    else if(cnt >= 3) cout << 2 << endl;
-    else if(cnt >= 1) cout << 3 << endl;
-    else cout << -1 << endl;
+    if(cnt >= 5) printf("1\n");
+    else if(cnt >= 3) printf("2\n");
+    else if(cnt >= 1) printf("3\n");
+    else printf("-1\n");
 }

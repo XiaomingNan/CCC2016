@@ -1,1 +1,1 @@
-# CCC2016
+# CCC2016 Junior Solution
