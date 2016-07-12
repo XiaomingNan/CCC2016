@@ -3,7 +3,7 @@ using namespace std;
 int cnt; char ch;
 int main(){
     for(int i=0; i<6; i++){
-        cin >> ch;
+        scanf(" %c", ch);
         if(ch=='W') cnt++;
     }
     if(cnt >= 5) cout << 1 << endl;
